@@ -1,0 +1,52 @@
+@font-face {
+    src: url(fonts/segment-eglas.ttf);
+    font-family: Segment;
+}
+
+body {
+    color: whitesmoke;
+    background: linear-gradient(lightskyblue, pink);
+    margin: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 500px;
+    height: 250px;
+    background: rgb(21, 21, 70);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    border: whitesmoke solid 5px;
+    border-radius: 20px;
+}
+
+.score-container {
+    text-align: center;
+}
+
+.score {
+    width: 150px;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(238, 70, 70);
+    background: black;
+    font-size: 50px;
+    font-family: Segment, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+button {
+    color: whitesmoke;
+    background: rgb(21, 21, 70);
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 2px;
+    font-family: Segment, sans-serif;
+}
